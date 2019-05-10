@@ -1,0 +1,229 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: roboto, sans-serif;
+  font-size: 16px;
+  line-height: 1.4;
+  color: #000000;
+  background-color: #f2f2f2;
+  margin: 0 auto; }
+
+ul, ol {
+  list-style: none; }
+
+li {
+  padding: 8px; }
+
+h2 {
+  color: #ffffff; }
+
+p {
+  text-align: justify; }
+
+a {
+  color: #32ac95;
+  text-decoration: none; }
+
+html {
+  margin: 0 auto; }
+
+nav.navbar-autoshop {
+  background-color: #32ac95; }
+
+.logo {
+  max-width: 200px; }
+
+.heading-primary {
+  text-align: center;
+  width: 98%;
+  margin-top: 2%; }
+
+.heading-primary-main {
+  display: block;
+  font-size: 30px;
+  font-weight: bolder;
+  line-height: 1.7;
+  padding: 3% 1%; }
+
+.heading-primary-sub {
+  font-size: 18px;
+  text-align: center; }
+
+.footer {
+  width: 100%;
+  height: 25%;
+  background-color: #616161;
+  color: #ffffff;
+  padding: 1% 10%; }
+
+.footer-email::before {
+  content: url("img/icons/at-solid.svg"); }
+
+.footer-phonenumber::before {
+  content: url("img/icons/telephone.svg"); }
+
+.footer-address::before {
+  content: url("img/icons/map-signs-solid.svg"); }
+
+.about-social-icons {
+  display: inline-block;
+  height: 30px;
+  width: 30px; }
+
+.footer-email::before, .footer-phonenumber::before, .footer-address::before {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  margin-right: 9px; }
+
+.model-preview-block {
+  margin-left: 60px; }
+
+.model-preview-car-details-page {
+  position: relative;
+  width: 233px;
+  height: 139px;
+  /*height: 100% */
+  float: left;
+  color: white;
+  text-align: center;
+  background-image: linear-gradient(to right bottom, #32ac95, #32ac95);
+  clip-path: polygon(0 0, 100% 0, 100% 9vh, 0 100%); }
+
+.car-details-title {
+  margin-top: 20px; }
+
+.car-details-type {
+  color: #000000;
+  margin-top: 20px;
+  font-weight: bold; }
+
+.modal-car-details-image {
+  width: 233px;
+  height: 177px;
+  position: absolute;
+  z-index: -1;
+  bottom: 50%;
+  top: 225px; }
+
+.modal-car-details-image img {
+  position: relative;
+  width: 233px;
+  height: 177px;
+  top: -122px; }
+
+.modal-text-box {
+  position: relative;
+  width: 233px;
+  height: 200px;
+  top: 156px; }
+
+.description-special::before {
+  display: inline-block;
+  content: url("img/icons/right-black-arrow.svg");
+  color: #32ac95; }
+
+.description-bold {
+  font-weight: bolder; }
+
+.description-bold-special {
+  margin-top: 20px;
+  font-weight: bolder; }
+
+.description-margin {
+  margin-bottom: 20px; }
+
+.calculator-block {
+  background-color: #ececec; }
+
+.model-preview-block {
+  position: relative;
+  width: 233px; }
+
+.model-preview-block-middle {
+  position: relative;
+  width: 233px;
+  float: left; }
+
+.model-box-index-large {
+  position: relative;
+  padding: 10px;
+  width: 235px;
+  height: 257px;
+  /*height: 100%; */
+  color: #ffffff;
+  text-align: center;
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+  z-index: 20; }
+
+.model-box-index-small {
+  width: 236px;
+  height: 189px;
+  /*height: 240px; */
+  float: left;
+  text-align: center;
+  color: #ffffff;
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+  position: relative;
+  z-index: 20; }
+
+.model-box-index-large-first {
+  background-image: linear-gradient(to right bottom, #77a09e, #77a09e);
+  left: 1px; }
+
+.model-box-index-large-last {
+  background-image: linear-gradient(to right bottom, #32ac95, #32ac95);
+  left: 2px; }
+
+.model-box-index-small-middle {
+  /* center model-preview-index-small */
+  -ms-transform: translateY(-50%);
+  transform: translateY(9%);
+  background-image: linear-gradient(to right bottom, #79b2ac, #79b2ac);
+  top: 47px; }
+
+.modal-title {
+  display: inline-block; }
+
+.modal-type {
+  margin-bottom: 10px; }
+
+.modal-description {
+  margin-bottom: 10px; }
+
+.modal-price {
+  margin-bottom: 15px; }
+
+.modal-image {
+  width: 233px;
+  height: 177px;
+  position: relative;
+  z-index: 0;
+  bottom: 50%;
+  top: 225px;
+  left: 1px; }
+
+.modal-image-large img {
+  position: relative;
+  width: 233px;
+  height: 177px;
+  top: -60px;
+  z-index: 1;
+  left: 3px; }
+
+.modal-image-small img {
+  position: relative;
+  width: 233px;
+  height: 178px;
+  top: 11px;
+  z-index: -30;
+  left: 3px; }
+  .modal-image-small img .container-settings {
+    background-color: white; }
+
+/*# sourceMappingURL=main.css.map */
