@@ -1,28 +1,42 @@
-//.footer
-//  width: 100%
-//  height: 25%
-//  background-color: $dark-black
-//  color: $white
-//  padding: 1% 10%
-//
-//
-//.footer-email::before
-//  @extend %footer-icons-position
-//  content: url("img/icons/at-solid.svg")
-//
-//
-//.footer-phonenumber::before
-//  @extend %footer-icons-position
-//  content: url("img/icons/telephone.svg")
-//
-//.footer-address::before
-//  @extend %footer-icons-position
-//  content: url("img/icons/map-signs-solid.svg")
-//
-//.about-social-icons
-//  display: inline-block
-//  height: 30px
-//  width: 30px
+.footer
+  position: sticky
+  width: 100%
+  height: 25%
+  background-color: $dark-black
+  color: $white
+  bottom: 0
+  z-index: 2000
+
+
+.footer-email::before
+  @extend %footer-icons-position
+  content: url("../img/icons/at-solid.svg")
+
+
+.footer-phonenumber::before
+  @extend %footer-icons-position
+  content: url("../img/icons/telephone.svg")
+
+.footer-address::before
+  @extend %footer-icons-position
+  content: url("../img/icons/map-signs-solid.svg")
+
+.about-social-icons
+  display: inline-block
+  height: 30px
+  width: 30px
+
+span.contact-address-row
+  display: block
+
+
+.contact-address-row::before
+  display: inline-block
+  width: 20px
+  height: 20px
+  content: " "
+  vertical-align: middle
+  margin-right: 9px
 
 
 

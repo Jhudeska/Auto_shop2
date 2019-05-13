@@ -1,9 +1,6 @@
 .calculator-section
   margin-top: 40%
 
-.model-preview-block-details
-  //margin-left: 60px
-
 
 .model-preview-car-details-page
   position: relative
@@ -34,12 +31,14 @@
   position: relative
   width: 100%
   height: 177px
+  object-fit: cover
 
 .modal-text-box
   position: relative
   width: 100%
   height: 200px
   padding: 15px
+  top: -30px
 
 .description-special::before
   display: inline-block
@@ -49,6 +48,8 @@
 
 .description-bold
   font-weight: bolder
+  margin-bottom: 2px
+  margin-top: 30px
 
 .description-bold-special
   margin-top: 20px
@@ -62,6 +63,60 @@
   position: relative
   width: 100%
   background-color: $background-color-calculator
-  top: -200px
+  top: -100px
 
 
+.calculator-block-price
+  //text-align: center
+  display: flex
+  justify-content: center
+  align-items: center
+  padding: 30px 0
+
+
+h1.heading-calc
+    font-weight: bolder
+    padding: 10px
+
+
+.calculator-form
+  position: relative
+  left: 25%
+  padding: 30px 0
+
+.txt-form-personal
+  padding: 30px 0
+
+
+.container-leaseamount
+  text-align: center
+  position: relative
+  display: inline-block
+  //left: 750px
+
+.txt-leaseamount
+  text-align: center
+
+
+
+
+//#h1-w-padding-top
+//  padding-top: 70px
+//
+//
+//.li-items::before
+//  position: relative
+//  content: " < "
+//  top: -20%
+//
+//
+//
+//.h1-gray
+//  text-align: center
+//  padding-left: 10px
+//
+//
+h1.txt-form-personal::before
+  content: url("../img/icons/right-black-arrow.svg")
+  font-size: 60px
+  font-weight: bolder

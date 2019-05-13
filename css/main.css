@@ -10,7 +10,10 @@ body {
   line-height: 1.4;
   color: #000000;
   background-color: #f2f2f2;
-  margin: 0 auto; }
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
 
 ul, ol {
   list-style: none; }
@@ -27,6 +30,10 @@ a {
 
 nav.navbar-autoshop {
   background-color: #32ac95; }
+
+.top-container {
+  padding-right: 0;
+  padding-left: 0; }
 
 .logo {
   max-width: 200px; }
@@ -46,6 +53,47 @@ nav.navbar-autoshop {
 .heading-primary-sub {
   font-size: 18px;
   text-align: center; }
+
+.footer {
+  position: sticky;
+  width: 100%;
+  height: 25%;
+  background-color: #616161;
+  color: #ffffff;
+  bottom: 0;
+  z-index: 2000; }
+
+.footer-email::before {
+  content: url("../img/icons/at-solid.svg"); }
+
+.footer-phonenumber::before {
+  content: url("../img/icons/telephone.svg"); }
+
+.footer-address::before {
+  content: url("../img/icons/map-signs-solid.svg"); }
+
+.about-social-icons {
+  display: inline-block;
+  height: 30px;
+  width: 30px; }
+
+span.contact-address-row {
+  display: block; }
+
+.contact-address-row::before {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  content: " ";
+  vertical-align: middle;
+  margin-right: 9px; }
+
+.footer-email::before, .footer-phonenumber::before, .footer-address::before {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  margin-right: 9px; }
 
 .calculator-section {
   margin-top: 40%; }
@@ -78,13 +126,15 @@ nav.navbar-autoshop {
 .modal-car-details-image img {
   position: relative;
   width: 100%;
-  height: 177px; }
+  height: 177px;
+  object-fit: cover; }
 
 .modal-text-box {
   position: relative;
   width: 100%;
   height: 200px;
-  padding: 15px; }
+  padding: 15px;
+  top: -30px; }
 
 .description-special::before {
   display: inline-block;
@@ -92,7 +142,9 @@ nav.navbar-autoshop {
   color: #32ac95; }
 
 .description-bold {
-  font-weight: bolder; }
+  font-weight: bolder;
+  margin-bottom: 2px;
+  margin-top: 30px; }
 
 .description-bold-special {
   margin-top: 20px;
@@ -105,7 +157,38 @@ nav.navbar-autoshop {
   position: relative;
   width: 100%;
   background-color: #ececec;
-  top: -200px; }
+  top: -100px; }
+
+.calculator-block-price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0; }
+
+h1.heading-calc {
+  font-weight: bolder;
+  padding: 10px; }
+
+.calculator-form {
+  position: relative;
+  left: 25%;
+  padding: 30px 0; }
+
+.txt-form-personal {
+  padding: 30px 0; }
+
+.container-leaseamount {
+  text-align: center;
+  position: relative;
+  display: inline-block; }
+
+.txt-leaseamount {
+  text-align: center; }
+
+h1.txt-form-personal::before {
+  content: url("../img/icons/right-black-arrow.svg");
+  font-size: 60px;
+  font-weight: bolder; }
 
 .btn-green {
   background-color: #32ac95;
@@ -118,6 +201,9 @@ nav.navbar-autoshop {
   text-align: left;
   padding: 5px;
   margin-bottom: 20px; }
+
+.container-wrapper {
+  flex: 1 0 auto; }
 
 .model-box {
   width: 100%; }
@@ -160,7 +246,7 @@ nav.navbar-autoshop {
   -ms-transform: translateY(-50%);
   transform: translateY(9%);
   background-image: linear-gradient(to right bottom, #79b2ac, #79b2ac);
-  height: 250px;
+  height: 177px;
   justify-content: center;
   align-items: center; }
 
@@ -188,13 +274,16 @@ nav.navbar-autoshop {
   position: relative;
   width: 100%;
   top: -60px;
-  z-index: 1; }
+  z-index: 1;
+  object-fit: cover; }
 
 .model-image-small img {
   position: relative;
   width: 100%;
-  height: 240px;
-  top: -45px;
-  z-index: -30; }
+  height: 195px;
+  top: -19px;
+  z-index: -30;
+  margin-bottom: 50px;
+  object-fit: cover; }
 
 /*# sourceMappingURL=main.css.map */

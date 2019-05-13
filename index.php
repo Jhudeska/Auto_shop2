@@ -2,8 +2,10 @@
 
 <div class="section px-0 mx-0">
     <div class="container px-0 mx-0">
-        <div class="row no-gutters py-0 my-0">
-            <div class="col ">
+        <div class="row no-gutters py-0 my-0 align-items-center">
+
+            <div class="col-12 col-sm-10 col-md-6  col-lg-4">
+
                 <div class="model-preview-block">
                     <div class="model-box">
                         <div class="model-box-index-large model-box-index-large-first">
@@ -18,7 +20,8 @@
                 </div>
             </div>
 
-            <div class="col ">
+            <div class="col-12  col-sm-10 col-md-6  col-lg-4">
+
                 <div class="model-preview-block-middle">
                     <div class="model-box">
                         <div class="model-box-index-small model-box-index-small-middle">
@@ -31,7 +34,8 @@
                 </div>
             </div>
 
-            <div class="col ">
+            <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+
                 <div class="model-preview-block">
                     <div class="model-box">
                         <div class="model-box-index-large model-box-index-large-last">

@@ -14,17 +14,20 @@
     <link rel="shortcut icon" type="image/png" href="img/kiss-dashboard.png">
 </head>
 <body>
-<nav class="navbar navbar-expand navbar-light sticky-top navbar-autoshop">
-    <div class="container-fluid">
+<div class="container-fluid top-container mx-0">
+    <nav class="navbar navbar-expand navbar-light sticky-top navbar-autoshop">
+        <!--    <div class="container-fluid">-->
         <a href="index.php" class="navbar-brand"><img class="logo" src="img/logo@2x.png" alt=""></a>
-    </div>
-</nav>
-<div class="container px-0 mx-0">
+        <!--    </div>-->
+    </nav>
+</div>
+
+<div class="container container-wrapper px-0 mx-0">
    <div class=" col">
        <header class="header container px-0 mx-0">
            <div class="heading-primary">
                <span class="heading-primary-main">Opdracht voor Jhudeska</span>
-               <p class="heading-primary-sub">Het is de bedoeling dat dit volledig weet te realiseren  met HTML 5 /CSS 3 als je eerste opdracht</p>
+               <p class="heading-primary-sub mb-5">Het is de bedoeling dat dit volledig weet te realiseren  met HTML 5 /CSS 3 als je eerste opdracht</p>
            </div>
        </header>
    </div>
