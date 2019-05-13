@@ -4,60 +4,47 @@
 @import "footer"
 @import "extends"
 @import "car-details-page"
+@import "buttons"
 
 
-//.model-box
-//margin: 0 10%
-//  transform: translate(50%, 50%)
-
+.model-box
+  width: 100%
 
 .model-preview-block
   position: relative
-  width: 233px
-  //height: 270px
-  //float: left
-
-
+  width: 100%
 
 .model-preview-block-middle
   position: relative
-  width: 233px
-  //height: 189px
-  float: left
+  width: 100%
 
 .model-box-index-large
   position: relative
   padding: 10px
-  width: 235px
+  width: 100%
   height: 257px
-  /*height: 100%;*/
-  //float: left
   color: $white
   text-align: center
   clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%)
   z-index: 20
 
 
+
 .model-box-index-small
-  width: 236px
-  height: 189px
-  /*height: 240px;*/
-  float: left
+  padding: 10px
+  height: 200px
   text-align: center
-  color: #ffffff
+  color: $white
   clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%)
   position: relative
   z-index: 20
 
 
-
 .model-box-index-large-first
   background-image: linear-gradient(to right bottom, $primary-color, $primary-color)
-  left: 1px
 
 .model-box-index-large-last
   background-image: linear-gradient(to right bottom, $third-color, $third-color)
-  left: 2px
 
 
 .model-box-index-small-middle
@@ -65,49 +52,44 @@
   -ms-transform: translateY(-50%)
   transform: translateY(9%)
   background-image: linear-gradient(to right bottom, $secondary-color, $secondary-color)
-  top: 47px
+  height: 250px
+  justify-content: center
+  align-items: center
 
 
 
 
-.modal-title
+.model-title
   display: inline-block
 
-.modal-type
+.model-type
   margin-bottom: 10px
 
-.modal-description
+.model-description
   margin-bottom: 10px
 
-.modal-price
+.model-price
   margin-bottom: 15px
 
-.modal-image
+.model-image
   width: 233px
   height: 177px
   position: relative
   z-index: 0
   bottom: 50%
   top: 225px
-  left: 1px
 
-.modal-image-large img
+.model-image-large img
   position: relative
-  width: 233px
-  height: 177px
+  width: 100%
   top: -60px
   z-index: 1
-  left: 3px
 
 
-
-.modal-image-small img
+.model-image-small img
   position: relative
-  width: 233px
-  height: 178px
-  top: 11px
+  width: 100%
+  height: 240px
+  top: -45px
   z-index: -30
-  left: 3px
 
-  .container-settings
-    background-color: white
