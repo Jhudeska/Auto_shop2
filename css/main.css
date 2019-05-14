@@ -28,6 +28,9 @@ a {
   color: #32ac95;
   text-decoration: none; }
 
+select {
+  border-radius: 0px; }
+
 nav.navbar-autoshop {
   background-color: #32ac95; }
 
@@ -105,7 +108,8 @@ span.contact-address-row {
   color: white;
   text-align: center;
   background-image: linear-gradient(to right bottom, #32ac95, #32ac95);
-  clip-path: polygon(0 0, 100% 0, 100% 9vh, 0 100%); }
+  clip-path: polygon(0 0, 100% 0, 100% 9vh, 0 100%);
+  padding: 10px; }
 
 .car-details-title {
   margin-top: 20px; }
@@ -172,23 +176,33 @@ h1.heading-calc {
 .calculator-form {
   position: relative;
   left: 25%;
-  padding: 30px 0; }
+  padding: 30px 0;
+  width: 100%; }
 
-.txt-form-personal {
-  padding: 30px 0; }
+h1.txt-form-personal {
+  font-size: 39px; }
 
 .container-leaseamount {
   text-align: center;
   position: relative;
-  display: inline-block; }
+  padding: 40px; }
 
 .txt-leaseamount {
   text-align: center; }
+
+.form-row {
+  padding: 4px; }
 
 h1.txt-form-personal::before {
   content: url("../img/icons/right-black-arrow.svg");
   font-size: 60px;
   font-weight: bolder; }
+
+.bg-light-gray {
+  background-color: #ececec; }
+
+select.bg-light-gray {
+  background-color: #d2d2d2; }
 
 .btn-green {
   background-color: #32ac95;
@@ -210,7 +224,8 @@ h1.txt-form-personal::before {
 
 .model-preview-block {
   position: relative;
-  width: 100%; }
+  width: 100%;
+  margin-bottom: 73px; }
 
 .model-preview-block-middle {
   position: relative;
