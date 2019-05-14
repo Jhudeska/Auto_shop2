@@ -63,8 +63,6 @@
         </div>
 
         <section class="calculator-section">
-            <div class="container">
-                <div class="row">
 
                     <div class="calculator-block">
                         <form action="#" method="get" class="calculator-form col-sm-6">
@@ -158,8 +156,8 @@
                                 <button class="btn btn-green">Versturen</button>
                             </form>
 
-                    </div><!-- end of row -->
-                </div>
+
+
             </div>
     </div>
     </div>
