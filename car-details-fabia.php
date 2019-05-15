@@ -63,10 +63,9 @@
         </div>
 
         <section class="calculator-section">
-
                     <div class="calculator-block">
-                        <form action="#" method="get" class="calculator-form col-sm-6">
 
+                        <form action="#" method="get" class="row calculator-form">
                             <div class=" form-row col-12">
                                 <div class="heading-primary">
                                     <h1 class="heading-calc">Ik ontvang graag een offerte Skoda Fabia Hatchback </h1>
@@ -75,43 +74,7 @@
                             </div>
 
 
-
-
-                            <div class="form-row">
-                                <label for="credit-amount" class=" col-4 col-sm-4 col-form-label" disabled>Aanschaf (ex. BTW):</label><br>
-                                <input type="text" class="col-3 col-sm-4 bg-light-gray" name="credit_amount" id="credit-amount">
-                            </div>
-
-                            <div class="form-row">
-                                <label for="amount" class=" col-4 col-sm-4 col-form-label">Aanbetaling:</label><br>
-                                <input type="text" class="col-3 col-sm-4" name="val3" id="amount">
-                            </div>
-
-                            <div class="form-row">
-                                <label for="amount" class=" col-4 col-sm-4 col-form-label">Slottermijn:</label><br>
-                                <input type="text" class="col-3 col-sm-4" name="val3" id="amount">
-                            </div>
-
-                            <div class="form-row">
-                                <label for="months" class="col-4 col-sm-4 col-form-label">Looptijd (mnd):</label><br>
-                                <select  class="col-3 col-sm-4 bg-light-gray" name="val3" id="months">
-                                    <option value="jan">1</option>
-                                    <option value="feb">2</option>
-                                    <option value="mrt">3</option>
-                                    <option value="apr">4</option>
-                                    <option value="mei">5</option>
-                                    <option value="jun">6</option>
-                                    <option value="jul">7</option>
-                                    <option value="aug">8</option>
-                                    <option value="sept">9</option>
-                                    <option value="okt">10</option>
-                                    <option value="nov">11</option>
-                                    <option value="dec">12</option>
-                                </select>
-                            </div>
-
-
-                            <div class=" form-row col-12 ">
+                            <div class=" form-row justify-content-center align-items-center col-12 ">
                                     <div class="container-leaseamount ">
                                         <p class="font-weight-bold display-4 txt-leaseamount"> €1445 </p>
                                         <p class="txt-leaseamount"> Is dit uw lease bedrag per maand? </p>
@@ -120,40 +83,96 @@
                                     </div>
                             </div>
 
+                            <div class=" form-row justify-content-center ">
 
-                            <h1 class="txt-form-personal">  VUL JE GEGEVENS IN </h1>
+                            <label for="credit-amount" class=" col-form-label text-center my-1 col-6" disabled>Aanschaf (ex. BTW)</label>
+                            <input type="text" class="bg-light-gray justify-content-center my-1 col-4" name="credit_amount" id="credit-amount">
 
-                                <div class="form-group">
-                                    <label  for="aanhef" class="radio form-label">Aanhef<sup>*</sup></label>
-                                    <input type="radio" checked="checked" name="radio" id="aanhef"> Dhr.
-                                    <input type="radio" name="radio" id="aanhef"> Mevr.
-                                    <span class="checkmark"></span>
+                                <label for="credit-amount" class=" col-form-label text-center my-1  col-6" >Aanbetaling</label>
+                                <input type="text" class=" my-1 col-4" name="credit_amount" id="credit-amount">
 
-                                </div>
-                                <div class="formgroup form-group-padding">
-                                    <label for="fname" class="form-label col-4 "">Voorletters</label><sup>*</sup>
-                                    <input class="form-control form-control-sm col-4 " type="text" id="fname" name="firstname" placeholder="Voorletters">
-                                </div>
-                                <div class="formgroup">
-                                    <label for="fname">Achternaam</label><sup>*</sup>
-                                    <input class="form-control form-control-sm" type="text" id="fname" name="firstname" placeholder="Achternaam">
-                                </div>
-                                <div class="formgroup">
-                                    <label for="fname">Telefoonnummer</label><sup>*</sup>
-                                    <input class="form-control form-control-sm" type="text" id="fname" name="firstname" placeholder="0612345678">
-                                </div>
-                                <div class="formgroup">
-                                    <label for="fname">Emailadres</label><sup>*</sup>
-                                    <input class="form-control form-control-sm" type="text" id="fname" name="firstname" placeholder="Emailadres">
-                                </div>
-                                <div class="formgroup">
-                                    <label class="radio">Auto inruilen </label>
-                                    <input type="radio" checked="checked" name="radio"> Ja
-                                    <input type="radio" name="radio"> Nee
-                                    <span class="checkmark"></span>
-                                </div>
+                                <label for="credit-amount" class=" col-form-label text-center my-1  col-6" >Slottermijn</label>
+                                <input type="text" class=" my-1  col-4" name="credit_amount" id="credit-amount">
 
-                                <button class="btn btn-green">Versturen</button>
+
+                            <label for="months" class="col-form-label text-center my-1  col-6">Looptijd (mnd):</label>
+                            <select  class="bg-light-gray col-4" name="months" id="months">
+                                <option value="jan">1</option>
+                                <option value="feb">2</option>
+                                <option value="mrt">3</option>
+                                <option value="apr">4</option>
+                                <option value="mei">5</option>
+                                <option value="jun">6</option>
+                                <option value="jul">7</option>
+                                <option value="aug">8</option>
+                                <option value="sept">9</option>
+                                <option value="okt">10</option>
+                                <option value="nov">11</option>
+                                <option value="dec">12</option>
+                            </select>
+                            </div>
+
+
+
+                            <div class="form-row justify-content-center pl-4 col-12">
+                                     <h1 class="txt-form-personal">  VUL JE GEGEVENS IN </h1>
+                            </div>
+
+                                <div class="form-row justify-content-center col-12">
+                                    <div class="form-row text-center col-4">
+                                        <label class="mr-4" for="aanhef" class="radio form-label">Aanhef<sup>*</sup></label>
+                                    </div>
+                                        <div class="form-row text-center col-6">
+                                            <input class="mr-4" type="radio" checked="checked" name="radio" id="aanhef"> Dhr.
+                                            <input class="mr-4 ml-4" type="radio" name="radio" id="aanhef"> Mevr.
+                                            <span class="checkmark"></span>
+                                        </div>
+
+
+                                        <div class="form-row text-center col-4">
+                                            <label for="fname" class="form-label "">Voorletters</label><sup>*</sup>
+                                        </div>
+                                        <div class="form-row text-center col-6">
+                                            <input class="form-control form-control-sm " type="text" id="fname" name="firstname" placeholder="Voorletters">
+
+                                        </div>
+
+
+                                    <div class="form-row text-center col-4">
+                                        <label for="fname">Achternaam</label><sup>*</sup>
+                                    </div>
+                                    <div class="form-row text-center col-6">
+                                        <input class="form-control form-control-sm" type="text" id="fname" name="firstname" placeholder="Achternaam">
+
+                                    </div>
+
+                                    <div class="form-row text-center col-4">
+                                        <label for="fname">Telefoonnummer</label><sup>*</sup>
+                                    </div>
+                                    <div class="form-row text-center col-6">
+                                        <input class="form-control form-control-sm" type="text" id="fname" name="firstname" placeholder="0612345678">
+
+                                    </div>
+                                    <div class="form-row text-center col-4">
+                                        <label for="fname">Emailadres</label><sup>*</sup>
+                                    </div>
+                                    <div class="form-row text-center col-6">
+                                        <input class="form-control form-control-sm" type="text" id="fname" name="firstname" placeholder="Emailadres">
+
+                                    </div>
+
+                                    <div class="form-row justify-content-center col-12">
+                                        <div class="form-row text-center col-4">
+                                            <label class="mr-4" for="ruilen" class="radio form-label">Autoruilen</label>
+                                        </div>
+                                        <div class="form-row text-center col-6">
+                                            <input class="mr-4" type="radio" checked="checked" name="radio" id="ruilen"> Ja
+                                            <input class="mr-4 ml-4" type="radio" name="radio" id="ruilen"> Nee
+                                            <span class="checkmark"></span>
+                                        </div>
+
+
+                                <button class="btn btn-green form-row col-4">Versturen</button>
                             </form>
 
 
