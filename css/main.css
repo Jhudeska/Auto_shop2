@@ -107,9 +107,20 @@ span.contact-address-row {
   height: 139px;
   color: white;
   text-align: center;
-  background-image: linear-gradient(to right bottom, #32ac95, #32ac95);
-  clip-path: polygon(0 0, 100% 0, 100% 9vh, 0 100%);
-  padding: 10px; }
+  padding: 10px;
+  clip-path: polygon(0 0, 100% 0, 100% 9vh, 0 100%); }
+
+.model-preview-car-details-page-first {
+  background-image: linear-gradient(to right bottom, #32ac95, #32ac95); }
+
+.model-preview-car-details-page-middle {
+  background-image: linear-gradient(to right bottom, #77a09e, #77a09e); }
+
+.model-preview-car-details-page-last {
+  background-image: linear-gradient(to right bottom, #79b2ac, #79b2ac); }
+
+.showMonthlyPayment_text {
+  display: none; }
 
 .car-details-title {
   margin-top: 20px; }
@@ -207,6 +218,11 @@ h1.txt-form-personal::before {
 select.bg-light-gray {
   background-color: #d2d2d2; }
 
+.btn-left {
+  position: relative;
+  left: -81px;
+  top: 25px; }
+
 .btn-green {
   background-color: #32ac95;
   color: #ffffff;
@@ -227,8 +243,7 @@ select.bg-light-gray {
 
 .model-preview-block {
   position: relative;
-  width: 100%;
-  margin-bottom: 73px; }
+  width: 100%; }
 
 .model-preview-block-middle {
   position: relative;
