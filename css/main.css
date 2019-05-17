@@ -160,7 +160,8 @@ span.contact-address-row {
 .calculator-block {
   position: relative;
   width: 100%;
-  background-color: #ececec; }
+  background-color: #ececec;
+  top: -225px; }
 
 .calculator-block-price {
   display: flex;

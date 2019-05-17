@@ -62,6 +62,7 @@
 
         </div>
 
+
         <section class="calculator-section">
                     <div class="calculator-block">
 
@@ -74,16 +75,8 @@
                             </div>
 
 
-                            <div class=" form-row justify-content-center align-items-center col-12 ">
-                                    <div class="container-leaseamount ">
-                                        <p class="font-weight-bold display-4 txt-leaseamount"> €1445 </p>
-                                        <p class="txt-leaseamount"> Is dit uw lease bedrag per maand? </p>
-                                        <p class="txt-leaseamount">Wij willen u graag een verblijvende </p>
-                                        <p class="txt-leaseamount">offerte aanbieden. </p>
-                                    </div>
-                            </div>
 
-                            <div class=" form-row justify-content-center ">
+                            <div class=" form-row justify-content-center col-sm-12 col-md-6">
 
                             <label for="credit-amount" class=" col-form-label text-center my-1 col-6" disabled>Aanschaf (ex. BTW)</label>
                             <input type="text" class="bg-light-gray justify-content-center my-1 col-4" name="credit_amount" id="credit-amount">
@@ -112,9 +105,16 @@
                             </select>
                             </div>
 
+                            <div class=" form-row justify-content-center align-items-center col-12 col-sm-12 col-md-6 ">
+                                <div class="container-leaseamount ">
+                                    <p class="font-weight-bold display-4 txt-leaseamount"> €1445,- </p>
+                                    <p class="txt-leaseamount description-bold"> Is dit uw lease bedrag per maand? </p>
+                                    <p class="txt-leaseamount">Wij willen u graag een verblijvende </p>
+                                    <p class="txt-leaseamount">offerte aanbieden. </p>
+                                </div>
+                            </div>
 
-
-                            <div class="form-row justify-content-center pl-4 col-12">
+                            <div class="form-row justify-content-center pl-4 col-12 col-md-10">
                                      <h1 class="txt-form-personal">  VUL JE GEGEVENS IN </h1>
                             </div>
 
@@ -123,8 +123,8 @@
                                         <label class="mr-4" for="aanhef" class="radio form-label">Aanhef<sup>*</sup></label>
                                     </div>
                                         <div class="form-row text-center col-6">
-                                            <input class="mr-4" type="radio" checked="checked" name="radio" id="aanhef"> Dhr.
-                                            <input class="mr-4 ml-4" type="radio" name="radio" id="aanhef"> Mevr.
+                                            <input class="mr-2" type="radio" checked="checked" name="radio" id="aanhef"> Dhr.
+                                            <input class="mr-2 ml-4" type="radio" name="radio" id="aanhef"> Mevr.
                                             <span class="checkmark"></span>
                                         </div>
 
@@ -166,13 +166,13 @@
                                             <label class="mr-4" for="ruilen" class="radio form-label">Autoruilen</label>
                                         </div>
                                         <div class="form-row text-center col-6">
-                                            <input class="mr-4" type="radio" checked="checked" name="radio" id="ruilen"> Ja
-                                            <input class="mr-4 ml-4" type="radio" name="radio" id="ruilen"> Nee
+                                            <input class="mr-2" type="radio" checked="checked" name="radio" id="ruilen"> Ja
+                                            <input class="mr-2 ml-4" type="radio" name="radio" id="ruilen"> Nee
                                             <span class="checkmark"></span>
                                         </div>
 
 
-                                <button class="btn btn-green form-row col-4">Versturen</button>
+                                <button class="btn btn-green">Versturen</button>
                             </form>
 
 
