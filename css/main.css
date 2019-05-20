@@ -31,6 +31,27 @@ a {
 select {
   border-radius: 0px; }
 
+input, select {
+  height: 35px; }
+
+input[type=radio] {
+  visibility: hidden; }
+
+.radio input + label::before {
+  content: url("../img/icons/circle-regular.svg");
+  margin-right: 5px; }
+
+.radio input:checked + label::before {
+  content: url("../img/icons/dot-circle-solid.svg");
+  color: #32ac95; }
+
+.radio input:checked input:hover + label::before {
+  content: url("../img/icons/dot-circle-solid.svg");
+  color: #32ac95; }
+
+.radio input:hover + label::before {
+  content: url("../img/icons/circle-regular-hover.svg"); }
+
 nav.navbar-autoshop {
   background-color: #32ac95; }
 
@@ -98,9 +119,6 @@ span.contact-address-row {
   vertical-align: middle;
   margin-right: 9px; }
 
-.calculator-section {
-  margin-top: 40%; }
-
 .model-preview-car-details-page {
   position: relative;
   width: 100%;
@@ -135,8 +153,7 @@ span.contact-address-row {
   height: 177px;
   position: relative;
   z-index: -1;
-  bottom: 50%;
-  top: -34px; }
+  bottom: 50%; }
 
 .modal-car-details-image img {
   position: relative;
@@ -147,9 +164,7 @@ span.contact-address-row {
 .modal-text-box {
   position: relative;
   width: 100%;
-  height: 200px;
-  padding: 15px;
-  top: -30px; }
+  height: 200px; }
 
 .description-special::before {
   display: inline-block;
@@ -171,8 +186,7 @@ span.contact-address-row {
 .calculator-block {
   position: relative;
   width: 100%;
-  background-color: #ececec;
-  top: -225px; }
+  background-color: #ececec; }
 
 .calculator-block-price {
   display: flex;
@@ -193,7 +207,7 @@ h1.heading-calc {
   padding: 30px 0; }
 
 h1.txt-form-personal {
-  font-size: 39px; }
+  font-size: 35px; }
 
 .container-leaseamount {
   text-align: center;
@@ -220,19 +234,27 @@ select.bg-light-gray {
 
 .btn-left {
   position: relative;
-  left: -81px;
-  top: 25px; }
+  left: 40px;
+  top: 25px;
+  background-color: #32ac95;
+  color: #ffffff;
+  border-color: #ffffff;
+  border-radius: 5px;
+  width: auto;
+  font-size: 14px;
+  z-index: 10;
+  text-align: left;
+  margin-bottom: 20px; }
 
 .btn-green {
   background-color: #32ac95;
   color: #ffffff;
   border-color: #ffffff;
   border-radius: 5px;
-  width: 233px;
+  width: 100%;
   font-size: 14px;
   z-index: 10;
   text-align: left;
-  padding: 5px;
   margin-bottom: 20px; }
 
 .container-wrapper {
@@ -276,10 +298,7 @@ select.bg-light-gray {
 
 .model-box-index-small-middle {
   /* center model-preview-index-small */
-  -ms-transform: translateY(-50%);
-  transform: translateY(9%);
   background-image: linear-gradient(to right bottom, #79b2ac, #79b2ac);
-  height: 177px;
   justify-content: center;
   align-items: center; }
 
@@ -316,7 +335,6 @@ select.bg-light-gray {
   height: 195px;
   top: -19px;
   z-index: -30;
-  margin-bottom: 50px;
   object-fit: cover; }
 
 /*# sourceMappingURL=main.css.map */

@@ -37,3 +37,30 @@ a
 
 select
     border-radius: 0px
+
+input, select
+  height: 35px
+
+
+
+input[type=radio]
+  visibility: hidden
+
+.radio input + label::before
+  content: url('../img/icons/circle-regular.svg')
+  margin-right: 5px
+
+
+.radio input:checked + label::before
+  content: url('../img/icons/dot-circle-solid.svg')
+  color: $third-color
+
+
+
+.radio input:checked input:hover + label::before
+  content: url('../img/icons/dot-circle-solid.svg')
+  color: $third-color
+
+
+.radio input:hover + label::before
+  content: url('../img/icons/circle-regular-hover.svg')

@@ -2,7 +2,7 @@
 
 <div class="section px-0 mx-0">
     <div class="container px-0 mx-0">
-        <div class="row no-gutters py-0 my-0 align-items-center">
+        <div class="row no-gutters py-0 my-0">
 
             <div class="col-12 col-sm-10 col-md-6  col-lg-4">
 
