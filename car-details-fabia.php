@@ -87,17 +87,17 @@
                         <div class=" form-row justify-content-center col-sm-12 col-md-6">
 
                             <label for="credit-amount" class=" text-center col-6" disabled>Aanschaf (ex. BTW)</label>
-                            <input type="text" class="bg-light-gray justify-content-center col-4" name="val3" id="credit-amount">
+                            <input type="text" class="input-select-height bg-light-gray justify-content-center col-4" name="val3" id="credit-amount">
 
                             <label for="credit-amount" class=" text-center  col-6" >Aanbetaling</label>
-                            <input type="text" class=" col-4" name="val1" id="credit-amount">
+                            <input type="text" class="input-select-height col-4" name="val1" id="credit-amount">
 
                             <label for="credit-amount" class="text-center   col-6" >Slottermijn</label>
-                            <input type="text" class="  col-4" name="val3" id="credit-amount">
+                            <input type="text" class="input-select-height  col-4" name="val3" id="credit-amount">
 
 
                             <label for="months" class=" text-center  col-6">Looptijd (mnd):</label>
-                            <select  class="bg-light-gray col-4" name="val4" id="months">
+                            <select  class="input-select-height bg-light-gray col-4" name="val4" id="months">
                                 <option value="jan">1</option>
                                 <option value="feb">2</option>
                                 <option value="mrt">3</option>
@@ -135,11 +135,24 @@
                             <div class="form-row text-center col-4">
                                 <label class="mr-4" for="aanhef" class="radio form-label">Aanhef<sup>*</sup></label>
                             </div>
+
                             <div class="form-row text-center col-6">
-                                <input class="mr-2" type="radio" checked="checked" name="radio" id="aanhef"> Dhr.
-                                <input class="mr-2 ml-4" type="radio" name="radio" id="aanhef"> Mevr.
-                                <span class="checkmark"></span>
+                                <ul>
+                                    <li class="radio">
+                                        <input  type="radio" checked="checked" name="radio" id="aanhef-2">
+                                        <label for="aanhef-2">Dhr.</label>
+                                    </li>
+                                    <li class="radio">
+                                        <input  type="radio" name="radio" id="aanhef-1">
+                                        <label for="aanhef-1">Mevr.</label>
+                                    </li>
+                                </ul>
                             </div>
+<!--                            <div class="form-row text-center col-6">-->
+<!--                                <input class="mr-2" type="radio" checked="checked" name="radio" id="aanhef"> Dhr.-->
+<!--                                <input class="mr-2 ml-4" type="radio" name="radio" id="aanhef"> Mevr.-->
+<!--                                <span class="checkmark"></span>-->
+<!--                            </div>-->
 
 
                             <div class="form-row text-center col-4">
@@ -179,14 +192,18 @@
                                     <label class="mr-4" for="ruilen" class="radio form-label">Autoruilen</label>
                                 </div>
                                 <div class="form-row text-center col-6">
-                                    <div class="radio">
-                                        <input class="mr-2" type="radio" checked="checked" name="radio" id="ruilen-1">
-                                        <label for="ruilen-1">Ja</label>
-                                    </div>
-                                    <div class="radio">
-                                        <input class="mr-2 ml-4" type="radio" name="radio" id="ruilen-2">
-                                        <label for="ruilen-2">Nee</label>
-                                    </div>
+
+                                  <ul>
+                                      <li class="radio">
+                                          <input  type="radio" checked="checked" name="radio" id="ruilen-1">
+                                          <label for="ruilen-1">Ja</label>
+                                      </li>
+                                      <li class="radio">
+                                          <input  type="radio" name="radio" id="ruilen-2">
+                                          <label for="ruilen-2">Nee</label>
+                                      </li>
+                                  </ul>
+
 
                                 </div>
 

@@ -19,9 +19,12 @@ body
   justify-content: center
   align-items: center
 
+.form-row
+  position: relative
 
-ul, ol
+form ul, ol
   list-style: none
+  display: inline
 
 
 h2
@@ -35,11 +38,25 @@ a
   color: $third-color
   text-decoration: none
 
+.input-select-height
+  height: 35px
+
 select
     border-radius: 0px
 
-input, select
-  height: 35px
+
+label
+  position: relative
+  display: inline
+
+li input
+  position: relative
+
+
+li.radio
+  display: inline
+  position: relative
+  margin-right: 15px
 
 
 
@@ -48,19 +65,15 @@ input[type=radio]
 
 .radio input + label::before
   content: url('../img/icons/circle-regular.svg')
-  margin-right: 5px
+  width: 15px
+  height: 15px
+  position: absolute
+  left: -19px
 
 
 .radio input:checked + label::before
   content: url('../img/icons/dot-circle-solid.svg')
   color: $third-color
-
-
-
-.radio input:checked input:hover + label::before
-  content: url('../img/icons/dot-circle-solid.svg')
-  color: $third-color
-
 
 .radio input:hover + label::before
   content: url('../img/icons/circle-regular-hover.svg')
